@@ -1,0 +1,15 @@
+<div><h1>
+  Original title: {{title}}<br><br>
+  Uppercase title: {{title | uppercase}}<br><br>
+  Lowercase title: {{title | lowercase}}<br><br>
+  cars array: {{cars | json}}<br><br>
+  amount in percent is: {{amount | percent:'2.0-0' }}<br><br>
+  pi is:  {{pi | number:'1.1-2'}}<br><br>
+  e is: {{e | number}}<br><br>
+  e rounded is: {{e | number:'1.1-2'}}<br><br>
+  date Format of todaysDate: {{ todaysDate | date: "MM/dd/yyyy" }}<br><br>
+</h1>
+</div>
+<app-child></app-child>
+
+
